@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/thannever/static/css/main.f1db6db1.css",
+    "main.js": "/thannever/static/js/main.cd8dbd05.js",
+    "static/js/787.40ef8edb.chunk.js": "/thannever/static/js/787.40ef8edb.chunk.js",
+    "static/media/than.svg": "/thannever/static/media/than.de8ef30030a72c87ebdeb09c2a61bfec.svg",
+    "index.html": "/thannever/index.html",
+    "main.f1db6db1.css.map": "/thannever/static/css/main.f1db6db1.css.map",
+    "main.cd8dbd05.js.map": "/thannever/static/js/main.cd8dbd05.js.map",
+    "787.40ef8edb.chunk.js.map": "/thannever/static/js/787.40ef8edb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1db6db1.css",
+    "static/js/main.cd8dbd05.js"
+  ]
+}
