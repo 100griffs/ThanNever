@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 
 
 
-function Nav({Logo,FaSearch,FaStream}) {
+function Nav({Logo,FaSearch,FaStream,}) {
   
   return (
-    <header> 
+   <header>
   <div className="containerx ">
     <div className='container-nav'>
   <img className='logo' src={Logo} alt='nature in japanese'/>
@@ -19,8 +19,9 @@ function Nav({Logo,FaSearch,FaStream}) {
     <nav>
       <ul >
       <Link className='link' to='/Search'>
-              <h4><FaSearch/></h4>
+              <h2><FaSearch/></h2>
               </Link>
+              
       <Link className='link' to='/home'>
               <h4>HOME</h4>
               </Link>
@@ -30,6 +31,7 @@ function Nav({Logo,FaSearch,FaStream}) {
               <Link className='stream' to='/View'>
               <h4><FaStream/></h4>
               </Link>
+              
 
       </ul>
     </nav>
@@ -38,7 +40,7 @@ function Nav({Logo,FaSearch,FaStream}) {
 
 
 
-    </header> 
+  </header>
   );
 }
 

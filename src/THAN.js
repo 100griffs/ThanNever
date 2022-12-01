@@ -13,7 +13,7 @@ return (
         <div>
         <div className='short'>
                 <h4>Quick Facts</h4>
-                <ul>  <li>
+                <dl>  <li>
                   Happened around: 445.2 million to 443.8 million years ago
                     </li>
                     <li>
@@ -22,7 +22,7 @@ return (
                     <li>
                         percentage lost : 85% of all species is estimated to have died out
                     </li>
-              </ul>
+              </dl>
               </div>
               <p>Ordovician Period lasted about 45 million years, starting 488.3 million years ago and ending 443.7 million years ago. During this period, the area north of the tropics was almost entirely waters, 
 Ordovician period constisted of diverse marine invertebrates, including graptolites, trilobites, brachiopods, and the conodonts (early vertebrates). This marine society consisted of these animals, plus red and green algae, primitive fish, cephalopods, corals, crinoids, and gastropods. More recently, tetrahedral spores that are similar to those of primitive land plants have been found, suggesting that plants invaded the land at this time 

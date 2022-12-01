@@ -1,14 +1,8 @@
 
 import React from 'react';
 
-import { Link } from 'react-router-dom';
 
-
-
-
-
-
-function Side({FaSearch}) {
+function Side({FaSearch,Link}) {
   
   return (
     <div className='side'> 
@@ -52,6 +46,22 @@ function Side({FaSearch}) {
               <li><p> Eco system</p>  </li>
               </Link>
               <Link className='link' to='/Bio'>
+              <li><p> Bio diversity</p> </li>
+              </Link><Link className='link' to='/Bio'>
+              <li><p> Bio diversity</p> </li>
+              </Link><Link className='link' to='/Bio'>
+              <li><p> Bio diversity</p> </li>
+              </Link><Link className='link' to='/Bio'>
+              <li><p> Bio diversity</p> </li>
+              </Link><Link className='link' to='/Bio'>
+              <li><p> Bio diversity</p> </li>
+              </Link><Link className='link' to='/Bio'>
+              <li><p> Bio diversity</p> </li>
+              </Link><Link className='link' to='/Bio'>
+              <li><p> Bio diversity</p> </li>
+              </Link><Link className='link' to='/Bio'>
+              <li><p> Bio diversity</p> </li>
+              </Link><Link className='link' to='/Bio'>
               <li><p> Bio diversity</p> </li>
               </Link>
 

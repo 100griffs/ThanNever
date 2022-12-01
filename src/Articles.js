@@ -9,9 +9,11 @@ export const Articles= [
     
     {
         id: 2,
-        Title: 'Disease',
-        img: 'https://www.thoughtco.com/thmb/wuqgTfsqvye9BZsnej9eeUfB854=/650x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/close-up-of-frog-on-leaf-938222096-40397f02afc6449b9ca8daa3baee9bac.jpg',
-       About: 'this has led to a lot of chaos in the world '
+        Title: 'Eco system',
+        img: 'https://youmatter.world/app/uploads/sites/2/2019/01/ecosystem-services-definition-examples.jpg',
+       About1: 'what is an eco system?',
+       About2: "an eco system is a biological community where living things interact with each other and with their non living things surroundings and conditions to form a bubble of life",
+       About3: ' ',
   
     },
   
@@ -40,10 +42,7 @@ export const Articles= [
         About: 'this has led to a lot of chaos in the world'
     },
     {
-        id: 7,
-        Title: 'Lack of Food',
-        img: 'https://www.thoughtco.com/thmb/ntrrVxqj15xyC5WkLc_vBCQcpwo=/650x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/biting-mosquito-960349766-297de71d6c634b398ad98df718bc0a1d.jpg',
-        About: 'this has led to a lot of chaos in the world'
+
     },
     {
         id: 8,

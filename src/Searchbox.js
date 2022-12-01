@@ -10,18 +10,18 @@ function Searchbox({ Species,Causes,}) {
   return (
 
     <div className='list'>
-      <div >
-    <input type="text" placeholder="Endangered species,extinctions, ecosystems, and more"className='search'
+      <div  >
+    <input type="text" placeholder="Endangered species,extinctions, ecosystems, and more"className='search' 
       onChange={(e)=> setQuery(e.target.value)}/>
 
 </div>
 
 <div className='space' >
 <div className='sc_1'>
-      {Species.filter(call=>call.Title.toLowerCase().includes(query)).map((call,j) =>(
+      {Species.filter(call=>call.Title.toLowerCase().includes(query)).map((call,i) =>(
        <Link className='link' to='/Endangered' > 
 
-       <div  key={j} >
+       <div  key={i}  >
         <h4>{call.Title}</h4>
         </div> 
         </Link>
@@ -42,9 +42,22 @@ function Searchbox({ Species,Causes,}) {
         
       ))}
       </div>
+      <div className='sc_1'>
+      {Causes.filter(cal=>cal.Title.toLowerCase().includes(query )).map((cal,i) =>(
+
+        <Link  className='link' to='/cos' > 
+      
+        <div key={i}>
+          <h4>{cal.Title} </h4>
+          
+        </div> </Link>
+        
+      ))}
+      </div>
+     
      
     </div>
-    <Link to='/Than' >  <h2>extinctions</h2></Link>
+    <Link to='/Than' >  <h2>mass extinctions</h2></Link>
      </div>)
 
 }

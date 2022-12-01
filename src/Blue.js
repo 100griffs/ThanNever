@@ -38,7 +38,7 @@ import { Link }  from 'react-router-dom';
           />})
          
                 return(
-                  <div>
+                  <div className='stem' >
                     <div>
 
               <h4>
@@ -64,7 +64,7 @@ import { Link }  from 'react-router-dom';
                     5 mass extinction that have happened in our planets history and the 6th that's happening now
                   </h3>
                   <div className='ex' >
-                  <Link to='/than'>
+                  <Link className='link' to='/than'>
                   <h4>The Ordovician Mass Extinction</h4>
                     <h4>The Devonian Mass Extinction </h4>
                   <h4>The Permian Mass Extinction </h4>

@@ -1,12 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
-import Slider from './Slider';
-import "./Slider.css";
 
 
-
-
-function view({Causes}) {
+function view({ Link } ) {
   return (
     <div className='view'> 
   
@@ -50,10 +45,7 @@ function view({Causes}) {
       <Link className='link' to='/Bio'>
   <h3>Bio diversity</h3> 
       </Link>
-      <Link className='link' to='/cos'>
-<h1> causes of bio diversity loss</h1>
-      <Slider Causes={Causes}/>
-      </Link>
+
 </div> 
 );
  
