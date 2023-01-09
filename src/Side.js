@@ -7,7 +7,7 @@ function Side({FaSearch,Link}) {
   return (
     <div className='side'> 
 
-            <ul className='slinks'>
+            <ul className='like'>
 
               <Link className='link' to='/home'>
               

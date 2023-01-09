@@ -4,7 +4,7 @@
  
 
 
-import React from 'react';
+import {useEffect} from 'react';
 import THAN from './THAN';
 import Ecx from './Ecx';
 import Articles from './Articles';
@@ -16,7 +16,6 @@ import Cos from './Cos';
 import Way from './Way';
 import Forward from './Forward';
 import Extinct from './Extinct';
-import Nav from './Nav';
 import Nature from './Nature';
 import Logo from  './than.svg'
 import Endangered from './Endangered';
@@ -28,6 +27,8 @@ import Art1 from './Art1';
 import Layout from './Layout';
 import Slider from './Slider'
 import Footer from './Footer';
+import Voice from'./Voice';
+import Bar from'./Bar';
 
 
 
@@ -41,10 +42,12 @@ import Footer from './Footer';
 
 
 import{ 
+          
           BrowserRouter,
           Routes,
           Link,
           Route 
+
   }  from 'react-router-dom'; 
 import Blue from './Blue';
 
@@ -55,18 +58,15 @@ import Blue from './Blue';
 
 /*setting up routes to navigate different parts of the websites*/
 
-function rout({Species, Causes,FaSearch,FaStream}) {
-    return (
+function Rout({Species, Causes,FaSearch,FaStream}) {
+
+  return (
       
    
    
    <div>
       <BrowserRouter>
-     
-
-      <Nav Logo={Logo} FaSearch={FaSearch} FaStream={FaStream} />
-     
-      
+     <Bar />
 <div className='rout'>
   
           
@@ -83,6 +83,7 @@ function rout({Species, Causes,FaSearch,FaStream}) {
               <Route path= '/Eco' element={<Eco Arts={Articles} Link={Link}/>} />
                   <Route path= '/about' element={<About/>} />
                   <Route path= '/Bio' element={<Bio/>} />
+                  <Route path= '/Voice' element={<Voice/>} />
                   <Route path= '/Clim' element={<Clim Link={Link}/>} />
                   <Route path= '/View' element={<View Causes={Causes} Link={Link}/>} />
                   <Route path= '/art1' element={<Art1 Arts={Articles} Logo={Logo}/>} />
@@ -92,20 +93,21 @@ function rout({Species, Causes,FaSearch,FaStream}) {
                 < Route exact path='/search' element={<Searchbox Species={Species} Causes={Causes}/>} />
                 <Route path= '/home' element={<Home Slider={Slider} Causes={Causes} Link={Link} FaStream={FaStream} />} />
                 </Routes>
-             
-              
+
                 </div>
-               
-              
+                <Footer FaSearch={FaSearch}  Link={Link}  Logo={Logo}  />
+
 
       </BrowserRouter>
    
+   <div>
    
+   </div>
      
-      <Footer FaSearch={FaSearch}  Link={Link}/>
+  
       </div>
     );
   }
   
-  export default rout;
+  export default Rout;
    

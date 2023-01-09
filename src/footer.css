@@ -1,5 +1,8 @@
 
-
+.hr_foot{
+	height: 7px;
+background-color: #8b8b8b;
+}
 
 .container{
 	max-width: 1170px;
@@ -12,25 +15,27 @@
 	flex-wrap: wrap;
 }
 .foots{
-padding: 5px;
+padding: 2px;
+position: sticky;
+top: 0;
 }
 ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
-    padding: 70px 0;
+	background-color: #000000;
+    padding: 10px 0;
 
 }
 .footer-col{
    width: 25%;
-   padding: 0 15px;
+   padding: 0 10px;
 }
 .footer-col h4{
 	font-size: 18px;
 	color: #ffffff;
 	text-transform: capitalize;
-	margin-bottom: 35px;
+	margin-bottom: 15px;
 	font-weight: 500;
 	position: relative;
 }
@@ -42,25 +47,33 @@ ul{
 	background-color: #e91e63;
 	height: 2px;
 	box-sizing: border-box;
-	width: 50px;
+	width: 70px;
 }
 ul li:not(:last-child){
 	margin-bottom: 10px;
 }
-ul li {
+.like li {
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: #fff;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #fff;
 	display: block;
 	transition: all 0.3s ease;
 }
 li:hover{
-	color: #ffffff;
+	color: #420eff;
 	padding-left: 8px;
 }
+.end{
+	color: #ffffff;
+	text-align: center;
+	
+
+}
+
+
 
 
 
@@ -73,6 +86,7 @@ li:hover{
     width: 50%;
     margin-bottom: 30px;
 }
+
 }
 @media(max-width: 574px){
   .footer-col{

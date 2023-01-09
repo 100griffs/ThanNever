@@ -1,0 +1,23 @@
+
+.mid_vid{
+	width: 100%;
+    height: 300px;
+
+}
+.video_wrapper{
+	height: 500px;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont{
+
+    position: relative;
+    color: aliceblue;
+    text-shadow: 1px 1px 10px;
+
+}

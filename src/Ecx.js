@@ -10,17 +10,18 @@ class Ecx extends Component{
         }
     }
     componentDidMount(){
-        fetch('https://100griffs.github.io/animal.json')
+        fetch('http://localhost:9000/endangered')
         .then(res => res.json())
         .then(json => {
             this.setState({
                 isLoaded: true,
                 items:json,
+               
             });
+            console.log(json)
 
         });
      }
-
     render (){ 
         var{isLoaded, items} = this.state;
         if(!isLoaded){
@@ -31,11 +32,12 @@ class Ecx extends Component{
             return(
                 <div className="stem">
 
-                    <ul>
+                    <ul className="">
+                    
                             {items.map(thing => (
                                 
                             <li key={thing.id}>
-                               name: {thing.name} | status: {thing.status}
+                               <h1>name: {thing.name}</h1> | img: {thing.img}
                             </li>
                            ))}
                     </ul>

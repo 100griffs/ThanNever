@@ -5,7 +5,7 @@ export const Forward= [
         Title: 'Help the zoos or aquarium',
         img: '',
         About: 'to save'
-    }, 
+    },
     
     
     {

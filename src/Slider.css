@@ -15,8 +15,9 @@
     height: 100%;
     opacity: 0;
     transform: translateX(-50%);
-    transition: all 0.5s ease;
-  }
+    transition: all 0.3s ease;
+  
+}
  
   
   @media screen and (min-width: 600px) {
@@ -46,7 +47,7 @@
     color: rgb(255, 255, 255);
     padding: 0.5rem;
     background: rgba(0, 0, 0, 0.3);
-    animation: slide-up 1s ease 0.5s;
+    animation: slide-up 1s ease 0.3s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
     visibility: hidden;
@@ -55,7 +56,7 @@
     -moz-border-radius: 10%;
     -ms-border-radius: 10%;
     -o-border-radius: 10%;
-    -webkit-animation: slide-up 1s ease 0.5s;
+    -webkit-animation: slide-up 1s ease 0.3s;
 }
   
   @keyframes slide-up {
