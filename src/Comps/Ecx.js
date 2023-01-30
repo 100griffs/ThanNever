@@ -5,52 +5,46 @@ import axios from "axios";
 
 
 
-
-const Cos=()=>{
+const Ecx=()=>{
     const[Data ,setData]= useState([])
 
 
     useEffect(()=>{
         axios
         
-           .get("http://localhost:9000/causes/")
+           .get("http://localhost:9000/endangered/")
             .then(res =>{
               
                 setData(res.data)
-                console.log(res)
             })
        .catch(err => {
-        
        console.log(err)
   })
     }, [])
-         
+          
      
-
-   
    
     return(
 
         <div>
 
 
-
-<h3>causes of Species extinction/endanger</h3>
+{console.log(Data)}
   
     {Data.map(data=>(
-        <div key={data.id} className="viewer">
+        <div className="stem">
         <>
-     <Link to={`/Card/${data.id}`}>
-        <h2>{data.Title}</h2>
+     <Link to={`/lines/${data.name}`}>
+        <h2>{data.name}</h2>
         <img className="im" alt="images" src={data.img}/>
-        <p>read more</p>
     </Link> 
         </>
         </div>
+      
     ))}
  
 
         </div>
     )
 }
-export default Cos
+export default Ecx

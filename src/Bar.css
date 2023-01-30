@@ -1,7 +1,7 @@
 .NavbarItems{
     display:flex;
     justify-content: space-between;
- 
+    background-image: url("https://images.pexels.com/photos/2382325/pexels-photo-2382325.jpeg?auto=compress&cs=tinysrgb&w=600");
     font-size: 1.2rem;
     padding: 0 10px;
     background-color: #222;
@@ -15,6 +15,7 @@
     -o-border-radius: 13px;
     position: sticky;
     top: 0px;
+
 
 }
 .icon{

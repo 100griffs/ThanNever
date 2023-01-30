@@ -5,6 +5,7 @@ import React from 'react';
 function Side({FaSearch,Link}) {
   
   return (
+   
     <div className='side'> 
 
             <ul className='like'>
@@ -69,7 +70,8 @@ function Side({FaSearch,Link}) {
             </ul>
           
 
-    </div> 
+  
+    </div>
   );
 }
 

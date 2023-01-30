@@ -10,12 +10,6 @@ import {useEffect} from 'react';
 
 
 
-
-
-
-
-
-
 const Home =({Causes,Link,FaStream}) => {
   useEffect(() => {
     //  scroll to top on page load
@@ -24,12 +18,19 @@ const Home =({Causes,Link,FaStream}) => {
 
 return(
 
-<div>
-
+<div className='maison'>
+  <div>
+<img className='image' alt='trees' src='https://images.pexels.com/photos/50579/africa-elephant-words-animal-50579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
+<p className='text'>
+Lorem ipsum dolor sit amet, consectetu.
+r adipiscing elit, sed do eiusmod tempor inciumLorem ipsum dolor sit amet, consectetu.
+r adipiscing elit, sed do eiusmod tempor inciumLorem ipsum dolor sit amet, consectetu.
+</p>
+</div>
 <div className='home'>
   <div className='home1'>
       <hr/>
-        <h1>Ecosystems</h1>
+        <h1>Biodiversity</h1>
       <hr/>
       <img className='im1' alt='trees' src='https://youmatter.world/app/uploads/sites/2/2019/01/ecosystem-services-definition-examples.jpg'/>
         
@@ -76,19 +77,27 @@ return(
 <div className='causes_home'>
 
 <Line/>
-<h1> causes of bio diversity loss</h1>
+
 
 </div> 
 
 <div className='home2'>
 <div className='side_word'> 
-<p > Biodiversity is the term used to describe all the different kinds of species you’ll find in one area or collection of areas—the variety of animals, plants, and even microorganisms like bacteria and their genetic variations plus the ecosystems patterns that make up any given natural environment. <Link to='/Bio' > check out more here </Link></p>
+<h4> causes of bio diversity loss</h4>
+<p className='text' > Biodiversity is the term used to describe all the different kinds of species you’ll find in one area or collection of areas—the variety of animals, plants, and even microorganisms like bacteria and their genetic variations plus the ecosystems patterns that make up any given natural environment. <Link to='/Bio' > check out more here </Link></p>
 </div> 
 
 <Slider   Causes={Causes}/>
 
 
-</div>         
+</div> 
+
+<div className='home2'>
+<div className='sidd'> 
+<h2>Endangered species</h2>
+<p className='text' > Biodiversity is the term used to describe all the different kinds of species you’ll find in one area or collection of areas—the variety of animals, plants, and even microorganisms like bacteria and their genetic variations plus the ecosystems patterns that make up any given natural environment. <Link to='/Bio' > check out more here </Link></p>
+</div>
+</div>
 </div>
 
 );

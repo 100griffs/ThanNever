@@ -4,7 +4,7 @@ import  './footer.css';
 function Footer({FaSearch,Link,Logo}) {
   
   return (<div>
-  
+
 
     <div className='foots'>
       <hr className='hr_foot'/>
@@ -12,6 +12,7 @@ function Footer({FaSearch,Link,Logo}) {
 <div className="container">
   <div className="row">
     <div className="footer-col">
+     <Link to='/about'>   
       <h4> who we are</h4>
       <ul className='like'>
         <li>about us</li>
@@ -20,8 +21,11 @@ function Footer({FaSearch,Link,Logo}) {
         <li>Apis and more</li>
         <li>support</li>
       </ul>
+      </Link>
     </div>
+    
     <div className="footer-col">
+    <Link to='/'>
       <h4>our impact</h4>
       <ul className='like' >
         <li>pollution</li>
@@ -30,8 +34,10 @@ function Footer({FaSearch,Link,Logo}) {
         <li>invasive species</li>
         <li>diseases..etc</li>
       </ul>
+      </Link>
     </div> 
     <div className="footer-col">
+    <Link to='/way'>   
       <h4>What we can do</h4>
       <ul className='like'>
         <li>Understand human impact</li>
@@ -40,7 +46,10 @@ function Footer({FaSearch,Link,Logo}) {
         <li>Help the zoos or aquariums</li>
         <li>support conservation programs..etc</li>
       </ul>
-    </div><div className="footer-col">
+      </Link>
+    </div>
+    <div className="footer-col">
+    <Link to='/search'>   
       <h4>Learn about</h4>
       <ul className='like'>
         <li>Climate change</li>
@@ -49,6 +58,7 @@ function Footer({FaSearch,Link,Logo}) {
         <li>mass extinctions</li>
         <li>Endangered species..etc</li>
       </ul>
+      </Link>
     </div>
    
   </div>

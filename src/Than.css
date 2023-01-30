@@ -80,17 +80,16 @@ display: flex;
 }
 
 .sc_1 {
-  width: 35%;
+  width: 55%;
   overflow-y: hidden;
   border-radius:35px ;
-margin: 5px;
-  font: 10px ;
+margin-left: 250px;
+  font: 10px;
   border-right-style: solid ;
-  -webkit-border-radius:35px ;
-  -moz-border-radius:35px ;
-  -ms-border-radius:35px ;
-  -o-border-radius:35px ;
+  border-left-style: solid ;
+  height: 350px;
 }
+
 
 .list{
   margin: 0% 1%;
@@ -107,6 +106,10 @@ font-family: 'Courier New', Courier, monospace;
   
   
 }
+.layout{
+  position: relative;
+  padding: 20px;
+}
 .side {
   height: 100%;
   width: 15%;
@@ -115,12 +118,11 @@ font-family: 'Courier New', Courier, monospace;
   border-right-style: solid ;
   border-color:  rgb(16, 16, 41);
   font: 8px ;
-position: unset;
+  background-color: #000000;
+  position: unset;
 
  
-  background-color: #000000;
-
-  }
+}
     .stem{
      padding: 2rem;
    font-family: 'Courier New', Courier, monospace;
@@ -144,13 +146,7 @@ background-color: #fefefe;
       object-fit: cover;
     }
 
-    .im1{
-      padding: 1rem;
-      height: 25rem;
-      width: 40rem;
-      object-fit: cover;
-
-    }
+  
     .home{
       padding: 0% 1% 0% 1%;
       display: flex;
@@ -171,13 +167,7 @@ background-color: #fefefe;
 
     }
     
-    .side_word{
-      width: 50%;
-      padding: 0% 2% 2% 2%;
-      font: 25px Georgia, serif;
-
-
-    }
+  
     
     
 
@@ -216,14 +206,7 @@ background-color: #fefefe;
 
     @media (max-width: 650px) {
       
-      .side_word{
-        width: 80%;
-        padding: 0% 2% 2% 5%;
-        font: 25px Georgia, serif;
-        text-align: center;
-  
-  
-      }
+ 
       .im{
         padding: 1rem;
         height: 15rem;
@@ -237,9 +220,9 @@ background-color: #fefefe;
         }
   
       .im1{
-        padding: 1rem;
+        padding: 0.5rem;
         height: 15rem;
-        width: 20rem;
+        width: 100%;
         object-fit: cover;
       }
   
@@ -287,8 +270,8 @@ background-color: #fefefe;
 
       .stem{
         width: 100%;
-        margin: 5%;
-        padding: 1rem;
+        margin: 2%;
+        padding: 0.1rem;
         border: none;
       }
       .logo{
@@ -307,7 +290,8 @@ background-color: #fefefe;
         width: 100%;
         text-align: center;
         border-left-style: solid ;
-        height: 200px;
+        height: 400px;
+        margin-left: 0px;
       }
       .item{
         min-height: 20%;

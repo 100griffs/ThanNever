@@ -23,6 +23,6 @@ export const linker =  [
         url: "./about",
         Cname: "nav-links",
         icon: "fa-solid  fa-house-user"
-    }
+    },
 
 ]
