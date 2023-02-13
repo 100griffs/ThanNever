@@ -3,47 +3,47 @@ import React from 'react'
 
 function view({ Link } ) {
   return (
-    <div className=''> 
+    <div className='stem'> 
   
      
-   
+   <h2> Nature 101</h2>
+
+   <hr/>
 
       
-      <Link className='link' to='/home'>
+      <Link className='link' to='/lines/Nature/Our World'>
       
-      <h3>HOME</h3>
+      <h3>Our world</h3>
       </Link>
       <Link className='link' to='/extinct'>
       
-      <h3>Extinct animals</h3>
+      <h3>Bio Diversity</h3>
       </Link>
       <Link className='link' to='/about'>
-      <h3>ABOUT</h3>
+      <h3>Eco systems</h3>
       </Link>
       <Link className='link' to='/than'>
-   <h3> Mass extinctions</h3>
+   <h3> our impact</h3>
+      </Link>
+
+      <Link className='link' to='/Clim'>
+      <h3>Climate change</h3>
+      </Link>
+
+      <Link className='link' to='/Endangered'>
+   <h3> learn about most hurt animals</h3>  
       </Link>
 
       <Link className='link' to='/cos'>
-      <h3> Our impact</h3>
-      </Link>
-      <Link className='link' to='/Clim'>
-      <h3>Climate change</h3>
+      <h3>Sustainability and Conservation</h3>
       </Link>
 
       <Link  className='link'to='/Way'>
      <h3> what we should do</h3>
       </Link>
 
-      <Link className='link' to='/Endangered'>
-   <h3> learn about most hurt animals</h3>  
-      </Link>
-      
-      <Link className='link' to='/Eco'>
-      <h3> Eco system</h3> 
-      </Link>
       <Link className='link' to='/Bio'>
-  <h3>Bio diversity</h3> 
+  <h3>Politics and Nature</h3> 
       </Link>
 
 </div> 

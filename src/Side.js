@@ -2,7 +2,7 @@
 import React from 'react';
 
 
-function Side({FaSearch,Link}) {
+function Side({Link}) {
   
   return (
    
@@ -14,24 +14,22 @@ function Side({FaSearch,Link}) {
               
               <li><h4>HOME</h4></li>
               </Link>
-              <Link  className='link'to='/Search'>
-              <li><FaSearch/></li>
-              </Link>
-              <Link className='link' to='/extinct'>
+    
+              <Link className='link' to='/voice'>
               
-              <li><p>Extinct animals</p></li>
+              <li><p>Contribute</p></li>
               </Link>
               <Link className='link' to='/about'>
               <li><p>ABOUT</p></li>
               </Link>
-              <Link className='link' to='/than'>
-              <li><p> Mass extinctions</p></li>
-              </Link>
 
-              <Link className='link' to='/cos'>
-              <li><p> Our impact</p></li>
+              <Link className='link' to='/view'>
+              <li><h4>Nature 101</h4></li>
               </Link>
-              <Link className='link' to='/Clim'>
+              <Link className='link' to='/lines/Nature/Our World'>
+              <li><p> Our World</p></li>
+              </Link>
+              <Link className='link' to='/lines/causes/climateChange'>
               <li><p>Climate change</p></li>
               </Link>
 
@@ -62,7 +60,11 @@ function Side({FaSearch,Link}) {
               <li><p> Bio diversity</p> </li>
               </Link><Link className='link' to='/Bio'>
               <li><p> Bio diversity</p> </li>
-              </Link><Link className='link' to='/Bio'>
+              </Link>
+              <Link className='link' to='/than'>
+              <li><p> Mass extinctions</p></li>
+              </Link>
+              <Link className='link' to='/Bio'>
               <li><p> Bio diversity</p> </li>
               </Link>
 

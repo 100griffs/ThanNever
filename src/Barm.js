@@ -10,7 +10,8 @@ export const linker =  [
         title: "search",
         url: './search',
         Cname: "nav-links",
-        icon: "fa-solid  fa-house-user"
+        icon: "fa-solid  fa-search"
+    
     },  
     {
         title: "contribute ",
@@ -19,10 +20,19 @@ export const linker =  [
         icon: "nav-links-mobile"
     },
     {
+        title: "More",
+        url: "./view",
+        Cname: "nav-links",
+        icon: "fa-solid  fa-stream"
+    
+    },
+
+
+    {
         title: "About",
         url: "./about",
         Cname: "nav-links",
-        icon: "fa-solid  fa-house-user"
+    
     },
 
 ]

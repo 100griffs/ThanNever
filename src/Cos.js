@@ -13,7 +13,7 @@ const Cos=()=>{
     useEffect(()=>{
         axios
         
-           .get("http://localhost:9000/causes/")
+           .get("http://localhost:8000/causes/")
             .then(res =>{
               
                 setData(res.data)
@@ -31,7 +31,7 @@ const Cos=()=>{
    
     return(
 
-        <div>
+        <div className='stem'>
 
 
 
@@ -40,10 +40,12 @@ const Cos=()=>{
     {Data.map(data=>(
         <div key={data.id} className="viewer">
         <>
-     <Link to={`/Card/${data.id}`}>
+    
         <h2>{data.Title}</h2>
         <img className="im" alt="images" src={data.img}/>
-        <p>read more</p>
+        <p className='text'>{data.about2}</p>
+        <Link to={`/lines/${data.from}/${data.name}`}>
+        <p className='text'>read more</p>
     </Link> 
         </>
         </div>

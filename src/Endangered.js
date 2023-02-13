@@ -1,34 +1,58 @@
-import React from 'react'
-import Cardx from './Cardx'
+import React, { useEffect, useState } from "react";
+import{ Link,}  from 'react-router-dom'; 
+import axios from "axios";
 
 
-const Endangered =({ Species}) => {
-
-  const  animals = Species.map((being,i) => {
-                return <Cardx 
-                      key={i}
-                      img={Species[i].img} 
-                      Title={Species[i].Title}
-                      About={Species[i].About}/>
-              })
-              return(
-
-                <div className='stem'>
 
 
-                        <h4 className='text'> some of the most endangered species</h4>
-                             <div className='container' key={animals}>
-                                {animals}
-                             </div>
 
-              </div>
-            
-          
-          );
-  }
+const Endangered=()=>{
+    const[Data ,setData]= useState([])
+
+
+    useEffect(()=>{
+        axios
+        
+           .get("http://localhost:8000/endangered/")
+            .then(res =>{
+              
+                setData(res.data)
+                console.log(res)
+            })
+       .catch(err => {
+        
+       console.log(err)
+  })
+    }, [])
+         
+     
+
+   
+   
+    return(
+
+        <div className='stem'>
+
+
+
+<h2 className='text'>Endangered Species</h2>
   
-  
-  
-  
-  
-  export default Endangered
+    {Data.map(data=>(
+        <div key={data.id} className="viewer">
+        <>
+    
+        <h1>{data.name}</h1>
+        <img className="im" alt="images" src={data.img}/>
+        <p className='text'>{data.about2}</p>
+        <Link to={`/lines/${data.from}/${data.name}`}>
+        <p className='text'>read more</p>
+    </Link> 
+        </>
+        </div>
+    ))}
+ 
+
+        </div>
+    )
+}
+export default Endangered

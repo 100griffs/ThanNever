@@ -1,38 +1,52 @@
-import React, { useEffect, useState } from "react";
-import{ useParams}  from 'react-router-dom'; 
-import axios from "axios";
+import React, { useState, useEffect } from "react";
+import axios from 'axios';
 
-const Card=()=>{
-    const[Data ,setData]= useState([])
+const Carousel = () => {
+  const [index, setIndex] = useState(0);
+  const [images, setImages] = useState([]);
+  const length = images.length;
 
-    const{id}=useParams()
+  useEffect(() => {
+    const getData = async () => {
+      const res = await axios.get("http://localhost:8000/endangered");
+      setImages(res.data);
+    };
+    getData();
+  }, []);
 
+  const handleNext = () => {
+    const newIndex = index + 1 === length ? 0 : index + 1;
+    setIndex(newIndex);
+  };
 
-    useEffect(()=>{
+  const handlePrevious = () => {
+    const newIndex = index - 1 < 0 ? length - 1 : index - 1;
+    setIndex(newIndex);
+  };
 
-        
-        axios
-        
-        
-           .get(`http://localhost:9000/causes/${id}`)
-            .then(res =>{
-                console.log(res)
-                setData(res.data)
+  // 10 seconds interval
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNext();
+    }, 10000);
+    return () => clearInterval(interval);
+  }, [index]);
 
-            })
-       .catch(err => {
-      
-  })
+  return (
+    <>
+      {images.map((image, i) => (
+        index === i && (
 
-  
-    }, [id])
+          <div className="carousel" key={image.id}>
+            <div className="carousel__image">
+              <img className="him" src={image.img} alt="slide show" />
+            </div>
+          </div>
 
-    return(
+        )
+      ))}
+    </>
+  );
+};
 
-        <div className='stem'>
-
-<h1>{Data.Title}</h1>
-<img alt="img" className="im" src={Data.img}/>
-<h1>{Data.About}</h1> </div>
-    )}
-export default Card
+export default Carousel;
