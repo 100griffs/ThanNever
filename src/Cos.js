@@ -13,11 +13,10 @@ const Cos=()=>{
     useEffect(()=>{
         axios
         
-           .get("http://localhost:8000/causes/")
+           .get("http://3.26.179.44:8000/causes")
             .then(res =>{
               
                 setData(res.data)
-                console.log(res)
             })
        .catch(err => {
         
@@ -36,6 +35,7 @@ const Cos=()=>{
 
 
 <h3>causes of Species extinction/endanger</h3>
+<p className="text"> By understanding the causes of species extinction and endangerment, we can work to protect and conserve the remaining species on our planet. here are some of them</p>
   
     {Data.map(data=>(
         <div key={data.id} className="viewer">

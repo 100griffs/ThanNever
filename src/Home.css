@@ -34,15 +34,23 @@
 
 }
 
-
+.text1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: #333333;
+  line-height: 2;
+  text-shadow: 0 0 2px #FFFFFF;
+  letter-spacing: 0.3px;
+}
 .text {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   color: #333333;
-  line-height: 1.5;
+  line-height: 2;
   text-shadow: 0 0 2px #FFFFFF;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
 }
 
 
@@ -104,11 +112,21 @@
         border-bottom-style: ridge ;
     }
 
+    .text1{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      color: #333333;
+      line-height: 2;
+      text-shadow: 0 0 2px #FFFFFF;
+      letter-spacing: 0.3px;
+    }
 
 .text {
-    word-spacing: 1px;
-    font-weight: 200;
-    font-size: 6vw;
+    word-spacing: 0.8px;
+    font-weight: 180;
+    font-size: 5vw;
+    line-height: 1.5;
 }
 
 .im1 {
@@ -144,9 +162,10 @@
 
 
 .text {
-  word-spacing: 1px;
-  font-weight: 200;
-  font-size: 6vw;
+  word-spacing: 0.8px;
+  font-weight: 180;
+  font-size: 4.8vw;
+  line-height: 1.5;
 }
 
 .im1 {
@@ -172,4 +191,26 @@ object-fit: cover;
 }
 
 
+}
+
+#progressBarContainer {
+  position: fixed;
+  z-index: 10;
+  background: rgba(255,255,255,0.05);
+  width: 100%;
+  top: 100px;
+  left: 0;
+}
+
+
+#progressBar {
+  background: linear-gradient(to left, rgb(11, 11, 11), rgb(0, 255, 94));
+  transform-origin: top left;
+  transform: scale(0,0);
+  opacity: 0;
+}
+
+#progressBarContainer,
+#progressBar {
+  height: 10px;
 }

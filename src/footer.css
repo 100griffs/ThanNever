@@ -18,13 +18,18 @@ background-color: #8b8b8b;
 padding: 2px;
 position: sticky;
 top: 0;
+
+
 }
 ul{
 	list-style: none;
 }
 .footer{
-	background-color: #000000;
+	background-color: #021703;
     padding: 10px 0;
+	padding-bottom: 300px;
+	
+	
 
 }
 .footer-col{
@@ -53,7 +58,7 @@ ul li:not(:last-child){
 	margin-bottom: 10px;
 }
 .like li {
-	font-size: 16px;
+	font-size: 25px;
 	text-transform: capitalize;
 	color: #fff;
 	text-decoration: none;
@@ -91,6 +96,12 @@ li:hover{
 @media(max-width: 574px){
   .footer-col{
     width: 100%;
+}
+.footer{
+	background-color: #000000;
+    padding: 10px 0;
+	background-image: url('https://images.pexels.com/photos/4590903/pexels-photo-4590903.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+
 }
 }
 

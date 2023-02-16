@@ -15,20 +15,18 @@
 
 
 
-import Ecx from './Comps/Ecx';
+
 import Home from './Home';
 import About from './About';
 import ERROR from './ERROR';
 import Cos from './Cos';
-import Extinct from './Extinct';
-import Nature from './Nature';
-import Logo from  './than.svg'
+
 import Endangered from './Endangered';
 import View from './View';
 import Layout from './Layout';
 import Footer from './Footer';
 import Voice from'./Voice';
-import Bar from'./Bar';
+import Bar from'./Comps/nav/Bar';
 
 const LazyLines=React.lazy(()=>import('./Comps/Lines'))
 const LazySearched=React.lazy(()=>import('./Comps/Search'))
@@ -72,11 +70,7 @@ function Rout() {
                 <LazyLines/>
                 </React.Suspense>
                 }/>
-
-                <Route path='/Ecx' element={<Ecx />}/>
                 <Route path='/Cos' element={<Cos/>}/>
-              <Route path= '/*' element={<Nature Logo={Logo} />} />
-              <Route path= '/extinct' element={<Extinct />} />
                   <Route path= '/about' element={<About/>} />
                   <Route path= '/Voice' element={<Voice/>} />
                   <Route path= '/View' element={<View  Link={Link}/>} />
@@ -90,13 +84,13 @@ function Rout() {
                 </React.Suspense>
                 }/>
 
-                <Route path= '/home' element={<Home  Link={Link} F/>} />
+                <Route path= '/' element={<Home  Link={Link}/>} />
               </Routes>
 
               
 
                 </div>
-                <Footer  Link={Link}  Logo={Logo}  />
+                <Footer  Link={Link}   />
 
            
       </BrowserRouter>

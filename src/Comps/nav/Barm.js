@@ -2,7 +2,7 @@
 export const linker =  [
     {
         title: "home",
-        url: '/home',
+        url: '/',
         Cname: "nav-links",
         icon: "fa-solid  fa-house-user"
     },

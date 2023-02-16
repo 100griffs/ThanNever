@@ -1,5 +1,60 @@
+h1 {
+  color: darkcyan;
+  font-family: Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
 
 
+h2 {
+  color: darkcyan;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+
+h3 {
+  color: darkcyan;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+
+h4 {color: darkcyan;
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+
+h5 {
+  color: darkcyan;
+  font-family: Arial, sans-serif;
+  font-size: 0.6em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+
+h6 {
+  color: darkcyan;
+  font-family: Arial, sans-serif;
+  font-size: 0.4em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
 .ste{
   text-align: center;
 }
@@ -117,11 +172,10 @@ font-family: 'Courier New', Courier, monospace;
   background-color: rgb(254, 245, 234);
   border-right-style: solid ;
   border-color:  rgb(16, 16, 41);
-  font: 8px ;
+  font: 6px ;
   background-color: #000000;
   position: unset;
 
- 
 }
     .stem{
      padding: 2rem;
