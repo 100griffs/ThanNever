@@ -37,7 +37,7 @@ const Endangered=()=>{
     useEffect(()=>{
         axios
         
-           .get("http://localhost:8000/endangered/")
+           .get("http://3.26.179.44:8000/endangered/")
             .then(res =>{
               
                 setData(res.data)

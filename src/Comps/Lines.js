@@ -38,7 +38,7 @@ const Lines=()=>{
         axios
         
         
-           .get(`http://localhost:8000/${from}/${id}`)
+           .get(`http://3.26.179.44:8000/${from}/${id}`)
             .then(res =>{
      
                 setData(res.data)

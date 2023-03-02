@@ -36,7 +36,7 @@ const Way=()=>{
     useEffect(()=>{
         axios
         
-           .get("http://localhost:8000/way")
+           .get("http://3.26.179.44:8000/way")
             .then(res =>{
               
                 setData(res.data)

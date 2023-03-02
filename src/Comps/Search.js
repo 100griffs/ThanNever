@@ -13,12 +13,12 @@ function Searched() {
   useEffect(() => {
  
     const urls = [
-      "http://localhost:8000/endangered",
-      "http://localhost:8000/causes",
-      "http://localhost:8000/articles",
-      "http://localhost:8000/nature",
-      "http://localhost:8000/Way",
-      "http://localhost:8000/extinct",
+      "http://3.26.179.44:8000/endangered",
+      "http://3.26.179.44:8000/causes",
+      "http://3.26.179.44:8000/articles",
+      "http://3.26.179.44:8000/nature",
+      "http://3.26.179.44:8000/Way",
+      "http://3.26.179.44:8000/extinct",
      
     ];
     
