@@ -10,7 +10,7 @@ function Side({Link}) {
 
             <ul className='like'>
 
-              <Link className='link' to='/home'>
+              <Link className='link' to='/'>
               
               <li><h4>HOME</h4></li>
               </Link>
@@ -33,10 +33,6 @@ function Side({Link}) {
               <li><p>Climate change</p></li>
               </Link>
 
-              <Link  className='link'to='/Way'>
-              <li><p> what we should do</p>  </li>
-              </Link>
-
               <Link className='link' to='/Endangered'>
               <li><p> learn about most hurt animals</p>  </li>
               </Link>
@@ -48,7 +44,7 @@ function Side({Link}) {
               <li><p>green house gases</p> </li>
               </Link>
               
-              <Link className='link' to='/lines/Nature/How%20to%20limit%20Greenhouse%20Gas%20Emissions'>
+              <Link className='link' to='/lines/Way/How%20to%20limit%20Greenhouse%20Gas%20Emissions'>
               <li><p> how to limit green house gases </p> </li>
               </Link>
               <Link className='link' to='/lines/Nature/Bio%20Diversity'>
@@ -56,7 +52,7 @@ function Side({Link}) {
               </Link>
               <Link className='link' to='/lines/Nature/Ecosystem'>
               <li><p>Eco system</p> </li>
-              </Link><Link className='link' to='/Bio'>
+              </Link><Link className='link' to='/lines/causes/Ocean%20acidification'>
               <li><p>ocean acidification</p> </li>
               </Link>
               <Link className='link' to='/lines/Nature/politics%20in%20environment%20crisis'>
@@ -67,6 +63,10 @@ function Side({Link}) {
               </Link>
               <Link className='link' to='/lines/causes/Habitat%20Loss'>
               <li><p>Habitat Loss</p> </li>
+              </Link>
+
+              <Link  className='link'to='/Way-forward'>
+              <li><p> what we should do</p>  </li>
               </Link>
 
              

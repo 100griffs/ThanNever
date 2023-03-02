@@ -18,18 +18,18 @@
 
 import Home from './Home';
 import About from './About';
-import ERROR from './ERROR';
-import Cos from './Cos';
-
-import Endangered from './Endangered';
-import View from './View';
+import ERROR from './pages/ERROR';
+import View from './pages/View';
 import Layout from './Layout';
 import Footer from './Footer';
-import Voice from'./Voice';
+import Voice from'./pages/Voice';
 import Bar from'./Comps/nav/Bar';
 
 const LazyLines=React.lazy(()=>import('./Comps/Lines'))
 const LazySearched=React.lazy(()=>import('./Comps/Search'))
+const LazyEndangered=React.lazy(()=>import('./pages/Endangered'))
+const LazyWay=React.lazy(()=>import('./pages/way'))
+const LazyCos=React.lazy(()=>import('./pages/Cos'))
 
 
 
@@ -70,19 +70,38 @@ function Rout() {
                 <LazyLines/>
                 </React.Suspense>
                 }/>
-                <Route path='/Cos' element={<Cos/>}/>
+       <Route path= '/cos' element={<React.Suspense fallback="loading.....">
+                <LazyCos/>
+                </React.Suspense>
+                }/>
+
+<Route path= '/way-forward' element={<React.Suspense fallback="loading.....">
+                <LazyWay/>
+                </React.Suspense>
+                }/>
+
+
+<Route path= '/endangered' element={<React.Suspense fallback="loading.....">
+                <LazyEndangered/>
+                </React.Suspense>
+                }/>
+
+
+<Route path= '/way-forward' element={<React.Suspense fallback="loading.....">
+                <LazyWay/>
+                </React.Suspense>
+                }/>
                   <Route path= '/about' element={<About/>} />
                   <Route path= '/Voice' element={<Voice/>} />
                   <Route path= '/View' element={<View  Link={Link}/>} />
-                  <Route path='/Endangered' element={<Endangered />}/>
-                <Route path= '*' element={<ERROR />} />
-           
+              
                 </Route>
-            
+
                 <Route path= '/Search' element={<React.Suspense fallback="loading.....">
                 <LazySearched/>
                 </React.Suspense>
                 }/>
+                  <Route path= '*' element={<ERROR />} />
 
                 <Route path= '/' element={<Home  Link={Link}/>} />
               </Routes>

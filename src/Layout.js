@@ -2,10 +2,12 @@ import React from "react";
 import Side from "./Side";
 import {Outlet} from "react-router-dom";
 
- const Layout= ({FaSearch,Link})=> {
+
+ const Layout= ({Link})=> {
     return(
         <>
-        <Side  FaSearch={FaSearch} className='side' Link={Link}/>
+        <Side className='side' Link={Link}/>
+    
         <Outlet/>
         </>
     )

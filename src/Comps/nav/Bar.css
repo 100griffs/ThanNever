@@ -1,13 +1,12 @@
 .NavbarItems{
     display:flex;
     justify-content: space-between;
-    background-image: url("https://images.pexels.com/photos/2382325/pexels-photo-2382325.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-color:rgb(254, 253, 252);
     font-size: 1.2rem;
     padding: 0 10px;
-    background-color: #222;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
-    width:98%;
-    height:100px;
+    width:99%;
+    height:70px;
     border-radius: 13px;
     -webkit-border-radius: 13px;
     -moz-border-radius: 13px;
@@ -20,11 +19,11 @@
 }
 .icon{
 align-self: center;
-padding: px;
+padding-right: 60px;
 }
 
 .logo{
-    color: white;
+    color: rgb(9, 1, 1);
 justify-self: start;
 cursor: pointer;
 
@@ -41,7 +40,7 @@ cursor: pointer;
 }
 .nav-links{
     text-decoration: none;
-    color:white;
+    color:rgb(10, 0, 0);
     padding:0.7rem 1rem;
     white-space: nowrap;
 }
@@ -57,7 +56,7 @@ cursor: pointer;
 }
 .fa-bars,
 .fa-times{
-    color: white;
+    color: rgb(12, 1, 1);
 }
 .menu-icons{
     display: none;
@@ -65,6 +64,7 @@ cursor: pointer;
 @media screen and (max-width:850px){
     .NavbarItems{
         z-index: 99;
+        background-color: rgb(254, 253, 252);
     }
    .nav-menu{
     display: flex;
@@ -83,10 +83,7 @@ cursor: pointer;
     margin: 0;
     z-index: -1;
     transition:all 0.3s ease-in-out ;
-    -webkit-transition:all 0.3s ease-in-out ;
-    -moz-transition:all 0.3s ease-in-out ;
-    -ms-transition:all 0.3s ease-in-out ;
-    -o-transition:all 0.3s ease-in-out ;
+    
 }
     
 .nav-menu.active{

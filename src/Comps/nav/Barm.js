@@ -13,18 +13,19 @@ export const linker =  [
         icon: "fa-solid  fa-search"
     
     },  
+ 
+    {
+        title: "Nature 101.",
+        url: "./view",
+        Cname: "nav-links",
+        icon: "fa-solid  fa-stream"
+    
+    },
     {
         title: "contribute ",
         url: "./voice",
         Cname: "nav-links",
         icon: "nav-links-mobile"
-    },
-    {
-        title: "More",
-        url: "./view",
-        Cname: "nav-links",
-        icon: "fa-solid  fa-stream"
-    
     },
 
 

@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
+import { Link } from "react-router-dom";
 
 const Carousel = () => {
   const [index, setIndex] = useState(0);
-  const [images, setImages] = useState([]);
-  const length = images.length;
+  const [data, setImages] = useState([]);
+  const length = data.length;
 
   useEffect(() => {
     const getData = async () => {
@@ -28,19 +29,27 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 10000);
+    }, 3500);
     return () => clearInterval(interval);
   }, [handleNext]);
 
   return (
     <>
-      {images.map((image, i) => (
+      {data.map((dat, i) => (
         index === i && (
 
-          <div className="carousel" key={image.id}>
+          <div className="carousel" key={dat.id}>
+            
             <div className="carousel__image">
-              <img className="him" src={image.img} alt="slide show" />
-            </div>
+          
+            <Link to={`/endangered/`}>
+              <img className="him" src={dat.img} alt="slide show" /> 
+              
+              </Link>
+              </div>
+             
+            
+         
           </div>
 
         )

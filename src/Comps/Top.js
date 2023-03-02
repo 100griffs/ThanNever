@@ -20,7 +20,7 @@ function Top(){
               textAlign: 'center',
             }}
       >
-      Scroll to top
+       To top
       </button>
 
   )
