@@ -42,7 +42,7 @@ const Carousel = () => {
             
            
               <p className='head'>{dat.name}</p>
-              <p>By: {dat.by}</p>
+              <p> By: {dat.by}</p>
              
              
             
