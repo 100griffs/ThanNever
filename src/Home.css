@@ -253,10 +253,7 @@ video::-webkit-media-controls {
   }
   
 }
-.side {
-  display: none;
-  
-}
+
 
 #progressBarContainer {
   position: fixed;
