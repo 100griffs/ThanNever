@@ -11,11 +11,11 @@ function Top(){
             }}
             style={{
               position: 'fixed',
-              padding: '0.5rem 1rem',
+              padding: '0.2rem 0.5rem',
               fontSize: '20px',
-              bottom: '30px',
-              right: '40px',
-              backgroundColor: '#0C9',
+              bottom: '10px',
+              right: '30px',
+              backgroundColor: '#024556',
               color: '#fff',
               textAlign: 'center',
             }}

@@ -99,7 +99,7 @@ video::-webkit-media-controls {
 
 .video_wrapper {
     height: 500px;
-    width: 80%;
+    width: 100%;
     position: relative;
     overflow: hidden;
     text-align: center;
@@ -191,16 +191,17 @@ video::-webkit-media-controls {
 
   .text1{
     word-spacing: 0.8px;
-    font-weight: 70;
-    font-size: 4.9vw;
+    font-weight: 30;
+    font-size: 17px;
     line-height: 1.7;
+  
 
   }
 
   .text {
     word-spacing: 0.8px;
-    font-weight: 80;
-    font-size: 4.9vw;
+    font-weight: 30;
+    font-size: 17px;
     line-height: 1.7;
   }
 
@@ -231,7 +232,7 @@ video::-webkit-media-controls {
     object-fit: cover;
 }
 }
-@media only screen and (max-width: 990px ) {
+@media only screen and (max-width: 1150px ) {
   
   .home{
  display: flex;
@@ -250,6 +251,10 @@ video::-webkit-media-controls {
     line-height: 1;
     
   }
+  
+}
+.side {
+  display: none;
   
 }
 

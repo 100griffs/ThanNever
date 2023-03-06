@@ -6,12 +6,12 @@ import Card from './Comps/Card';
 import video from './pexels-zlatin-georgiev-5607745.mp4';
 import { Helmet } from 'react-helmet-async';
 import Quotes from './Comps/Qoutes';
-import ReactGA from "react-ga4";
 
 
 
 
-ReactGA.initialize("G-BDT5NXKGB2");
+
+
 
 const Home =({Link}) => {
   const [scroll, setScroll] = useState(0);
@@ -45,6 +45,8 @@ return(
   <title>Thannever | Home</title>
   <meta name='description' content='learn about endangered species, climate change, politics in environmental crisis causes of extinction in species, how we can help  endangered animals and all topics concerning environment and animals '/>
   <meta name="google-site-verification" content="5_PJSNAK4NDWCY7VItOu2NAzJ1S_quwE_LouLkGVgow" />
+
+
  </Helmet>
 <div id="progressBarContainer">
 <div id="progressBar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}} />
@@ -206,7 +208,4 @@ Endangered species are Species that are at risk of becoming extinct,This negativ
 
 export default Home;
 
-ReactGA.send({
-  hitType: "pageview",
-  page: window.location.pathname,
-});
+

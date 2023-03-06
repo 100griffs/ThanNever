@@ -52,7 +52,7 @@ const Lines=()=>{
 
      if (Data.length === 0) {
         return ( <div className="lines">
-        <h4>Loading…</h4>
+        <h4>Loading…..</h4>
         </div>
             )
      
