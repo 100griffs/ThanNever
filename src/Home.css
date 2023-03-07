@@ -191,7 +191,7 @@ video::-webkit-media-controls {
 
   .text1{
     word-spacing: 0.8px;
-    font-weight: 30;
+
     font-size: 17px;
     line-height: 1.7;
   
@@ -200,7 +200,7 @@ video::-webkit-media-controls {
 
   .text {
     word-spacing: 0.8px;
-    font-weight: 30;
+
     font-size: 17px;
     line-height: 1.7;
   }
