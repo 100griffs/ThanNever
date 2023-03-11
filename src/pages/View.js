@@ -98,9 +98,9 @@ const View=({Link})=>{
 
       <Link className='link' to='/way-forward'>
       <h3>8. some solution to help the environment and all its inhabitants</h3>
-      <ul><li>conservation of animals</li>
-      <li>how to limit Greenhouse gasses</li>
-      <li>understanding human impact .etc</li>
+      <ul><li> conservation of animals</li>
+      <li> how to limit Greenhouse gasses</li>
+      <li> understanding human impact .etc</li>
       </ul> 
       
       </Link>
