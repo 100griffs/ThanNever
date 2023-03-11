@@ -36,7 +36,7 @@ const Way=()=>{
     useEffect(()=>{
         axios
         
-           .get("http://3.26.179.44:8000/way")
+           .get("https://tan-blushing-swallow.cyclic.app/way")
             .then(res =>{
               
                 setData(res.data)

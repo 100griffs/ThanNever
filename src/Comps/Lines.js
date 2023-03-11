@@ -37,7 +37,7 @@ const Lines=()=>{
         axios
         
         
-           .get(`http://3.26.179.44:8000/${from}/${id}`)
+           .get(`https://tan-blushing-swallow.cyclic.app/${from}/${id}`)
             .then(res =>{
      
                 setData(res.data)

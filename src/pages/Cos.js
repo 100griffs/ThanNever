@@ -38,7 +38,7 @@ const Cos=()=>{
     useEffect(()=>{
         axios
         
-           .get("http://3.26.179.44:8000/causes")
+           .get("https://tan-blushing-swallow.cyclic.app/causes")
             .then(res =>{
               
                 setData(res.data)

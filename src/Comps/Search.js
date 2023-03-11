@@ -13,12 +13,12 @@ function Searched() {
   useEffect(() => {
  
     const urls = [
-      "http://3.26.179.44:8000/endangered",
-      "http://3.26.179.44:8000/causes",
-      "http://3.26.179.44:8000/articles",
-      "http://3.26.179.44:8000/nature",
-      "http://3.26.179.44:8000/Way",
-      "http://3.26.179.44:8000/extinct",
+      "https://tan-blushing-swallow.cyclic.app/endangered",
+      "https://tan-blushing-swallow.cyclic.app/causes",
+      "https://tan-blushing-swallow.cyclic.app/articles",
+      "https://tan-blushing-swallow.cyclic.app/nature",
+      "https://tan-blushing-swallow.cyclic.app/Way",
+      "https://tan-blushing-swallow.cyclic.app/extinct",
      
     ];
     

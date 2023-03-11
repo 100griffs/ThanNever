@@ -9,7 +9,7 @@ const Carousel = () => {
 
   useEffect(() => {
     const getData = async () => {
-      const res = await axios.get("http://3.26.179.44:8000/Quotes");
+      const res = await axios.get("https://tan-blushing-swallow.cyclic.app/Quotes");
       setImages(res.data);
     };
     getData();
