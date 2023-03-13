@@ -64,7 +64,7 @@ cursor: pointer;
 @media screen and (max-width:900px){
     .NavbarItems{
         z-index: 99;
-        background-color: rgb(254, 253, 252);
+        background-color: rgb(255, 255, 255);
     }
    .nav-menu{
     display: flex;

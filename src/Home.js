@@ -45,6 +45,7 @@ return(
   <title>Thannever | Home</title>
   <meta name='description' content='learn about endangered species, climate change, politics in environmental crisis causes of extinction in species, how we can help  endangered animals and all topics concerning environment and animals '/>
   <meta name="google-site-verification" content="5_PJSNAK4NDWCY7VItOu2NAzJ1S_quwE_LouLkGVgow" />
+  <meta name="msvalidate.01" content="1666A3302A4C99D2291ACE9B1BDF9DB7" />
 
 
  </Helmet>
