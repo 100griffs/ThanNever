@@ -3,9 +3,9 @@ import React from 'react';
 import "./Home.css";
 import {useEffect,useState} from 'react';
 import Card from './Comps/Card';
-import video from './pexels-zlatin-georgiev-5607745.mp4';
 import { Helmet } from 'react-helmet-async';
 import Quotes from './Comps/Qoutes';
+import ReactPlayer from 'react-player'
 
 
 
@@ -58,15 +58,22 @@ return(
   <div>
     <Quotes/>
      <hr/>
-    <div className='.video-container'>
-  <video  className='video' src={video}    controls
-          muted
-          autoPlay={"autoplay"}
-          preload="auto"
-          loop>new world
-     </video>
+
+
+     <ReactPlayer  
+        url='https://stuffone.s3.ap-southeast-2.amazonaws.com/pexels-zlatin-georgiev-5607745.mp4'
+        playing={true}
+        loop={true}
+        muted={true}
+        controls={false}
+        id="background_video"
+        width='100%'
+        height='100%'
+     
+        
+      />
     
-     </div>
+
      <hr/>
   
 <p className='text'>We all share this world and we have a responsibility to protect the environment and its inhabitants We all share this world and we have a responsibility to protect the environment and its inhabitants. Every living thing on this planet has a right to exist and it is our job to ensure that happens</p>
@@ -147,7 +154,7 @@ return(
 
 <div>
 <p className='text'>
-We all share this world and we have a responsibility to protect the environment and its inhabitants. Every living thing on this planet has a right to exist and it is our job to ensure that happens. Animals are some of the most vulnerable members of our planet’s community, and they deserve respect and care from us  
+We all share this world and we have a responsibility to protect the environment and its inhabitants. Every living thing on this planet has a right to exist and it is our job to ensure that happens. Animals are some of the most vulnerable members of our planet’s community, and they deserve respect and care from us. <Link className='link' to='/way-forward'>learn more about how we can help animals </Link> 
 </p>
   <div>
 <img className='image' alt='trees' src='https://images.unsplash.com/photo-1588508107117-227d4ab6b751?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1128&q=80'/>

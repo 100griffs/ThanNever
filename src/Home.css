@@ -5,20 +5,7 @@ width: 100%;
   background-color: #0e293f;
 
 }
-.video-container {
 
-width: 100%;
-text-align: center;
-
-}
-.video{
-height: 500px;
-width:90%;
-margin-left: 50px;
-}
-video::-webkit-media-controls {
-  display: none;
-}
 
 .head{
   margin-bottom: 0px;

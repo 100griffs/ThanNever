@@ -8,7 +8,7 @@ import ReactGA from "react-ga4";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-ReactGA.initialize("G-BDT5NXKGB2");
+ReactGA.initialize("G-MFFCJ3EFNH");
 root.render(
   <React.StrictMode>
 

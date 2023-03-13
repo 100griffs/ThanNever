@@ -69,10 +69,7 @@ const Lines=()=>{
   <title>{Data.name} </title>
   <meta name='description' content={Data.about2}/>
  </Helmet>
-        {
-
-            
-        }
+        
 <div id="progressBarContainer">
 <div id="progressBar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}} />
 
@@ -91,6 +88,7 @@ const Lines=()=>{
  <img alt="img" className="im" src={Data.img2}   />
   
     <h4>{Data.second}</h4> 
+    <p className='text'>{Data.about5}</p> 
     <p className='text'>{Data.about5a}</p> 
     <p className='text'>{Data.about5b}</p> 
     <p className='text'>{Data.about5c}</p> 
