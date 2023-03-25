@@ -40,7 +40,7 @@ function About() {
         <p className='text'>ThanNever is a website dedicated to raising awareness,Teaching and helping to protect endangered animals and environment. It provides news, articles, and resources on topics such as animal conservation, global warming, climate change, and sustainability.</p>
         <p className='text'>The creation of ThanNever is driven by the passion of its founder, who believes that everyone has a responsibility to protect the planet and its inhabitants.  </p>
        <p className='text'>With ThanNever, we hope to motivate people to take meaningful action in order to make a positive change. Everyone is welcome to join the cause, and help make the world a better and safer place.</p>
-       <p className='text'> find us here :thannever@gmail.com  </p>
+       <p className='text'> find us here :thannever.com@gmail.com  </p>
       <img className="him" alt="no img" src="https://images.unsplash.com/photo-1516642369279-74481a67f24f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
       <div className="buttons_box">
     <Link to='/endangered'>

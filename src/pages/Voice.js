@@ -17,7 +17,7 @@ export default function Voice() {
       <hr/>
 <p className='text'>Every day, endangered species face the growing risk of extinction. Whether it's from deforestation, climate change or any other threats, their habitats are shrinking and their numbers are dwindling. This is why it's so important for us to take action and join the fight to save endangered species.</p>
 <p className='text1'>If you are looking to contribute to this website in any capacity, be it writing stories about animals and the environment or developing the website, Thannever.com is the perfect source to reach out to</p>
-<p className='text'> find us here :thannever@gmail.com  </p>
+<p className='text'> find us here :thannever.com@gmail.com  </p>
 <img className='him' alt='no image foung' src='https://images.unsplash.com/photo-1552008294-682a40b6469d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'/>
 
     </div>

@@ -43,7 +43,7 @@ return(
 <div className='maison'>
  <Helmet>
   <title>Thannever | Home</title>
-  <meta name='description' content='learn about endangered species, climate change, politics in environmental crisis causes of extinction in species, how we can help  endangered animals and all topics concerning environment and animals '/>
+  <meta name='description' content='learn about endangered species, eco systems,habitat loss, climate change, politics in environmental crisis, causes of extinction in species, how we can help  endangered animals and all topics concerning environment and animals '/>
   <meta name="google-site-verification" content="5_PJSNAK4NDWCY7VItOu2NAzJ1S_quwE_LouLkGVgow" />
   <meta name="msvalidate.01" content="1666A3302A4C99D2291ACE9B1BDF9DB7" />
 
@@ -58,41 +58,42 @@ return(
 </div>
   <div>
     <Quotes/>
-     <hr/>
 
-
-     <ReactPlayer  
-        url='https://stuffone.s3.ap-southeast-2.amazonaws.com/pexels-zlatin-georgiev-5607745.mp4'
-        playing={true}
-        loop={true}
-        muted={true}
-        controls={false}
-        id="background_video"
-        width='100%'
-        height='100%'
-     
-        
-      />
-    
-
-     <hr/>
   
-<p className='text'>We all share this world and we have a responsibility to protect the environment and its inhabitants We all share this world and we have a responsibility to protect the environment and its inhabitants. Every living thing on this planet has a right to exist and it is our job to ensure that happens</p>
+<p className='text'>We all share this world and we have a responsibility to protect the environment and its inhabitants We all share this world and we have a responsibility to protect the environment and its inhabitants.<Link className='link' to='/cos'> learn about what causes bio diversity loss </Link> </p>
 <p className='text'>
  Animals are some of the most vulnerable members of our planet’s community, and they deserve respect and care from us. Learn more with our short <Link className='link' to='/view'>Nature 1o1</Link> </p>
 
 <img className='image' alt='trees' src='https://images.pexels.com/photos/50579/africa-elephant-words-animal-50579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
 <p className='text'>Learn and get a basic understanding of what the problem is and how we can confront and overcome the problem of extinction and loss of Bio diversity on our planet. start now <Link className='link' to='/lines/Nature/Our World'>our world</Link>
 </p>
+
+<hr/>
+
+ <ReactPlayer  
+    url='https://stuffone.s3.ap-southeast-2.amazonaws.com/pexels-zlatin-georgiev-5607745.mp4'
+    playing={true}
+    loop={true}
+    muted={true}
+    controls={false}
+    id="background_video"
+    width='100%'
+    height='100%'
+ 
+    
+  />
+
 </div>
+
 <div className='home'>
   <div className='home1'>
       <hr/>
         <h1>Biodiversity</h1>
-        <Link className='link' to='/lines/Nature/Bio%20Diversity'>read more</Link>
+ <Link className='link' to='/lines/Nature/Bio%20Diversity'>read more</Link>
       <hr/>
+      <Link className='link' to='/lines/Nature/Ecosystem'>
       <img className='im1' alt='trees' src='https://youmatter.world/app/uploads/sites/2/2019/01/ecosystem-services-definition-examples.jpg'/>
-        
+      </Link>
         <h1>Ecosystems</h1>
       <p className='text'>an eco system is a biological community where living things interact with each other and with their non living things surroundings and conditions to form a bubble of life. <Link className='link' to='/lines/Nature/Ecosystem'>read more</Link></p>
 </div>
@@ -105,8 +106,9 @@ return(
      <hr/>
 <div>
 <div className='home2'>
-
+<Link  className='link' to='/lines/way/The%20Importance%20of%20Recycling%20and%20Sustainable%20Product%20Use%20for%20the%20Environment'>
 <img className='im' alt='trees' src='https://images.pexels.com/photos/9800006/pexels-photo-9800006.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
+</Link>
 <div className='home_onside'>
 <h2>Recycling, and sustainability.</h2>
 <p className='text'>
@@ -116,7 +118,9 @@ return(
 </div>
 <div >
           <div className='home2'>
+          <Link  className='link' to='/lines/way/Conservation%20Programs'>
           <img className='im' alt='trees' src='https://images.pexels.com/photos/730539/pexels-photo-730539.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'/>
+          </Link>
           <div className='home_onside'>
           <h2> Supporting conservation programs and adopting animals</h2>
           <p className='text'>

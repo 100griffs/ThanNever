@@ -78,7 +78,9 @@ const Way=()=>{
     
         <h2>{data.name}</h2>
         <hr/>
+        <Link className='link' to={`/lines/${data.from}/${data.name}`}>
         <img className="im" alt="images" src={data.img}/>
+        </Link>
         <p className='text'>{data.about2}  <Link className='link' to={`/lines/${data.from}/${data.name}`}>
      read more
     </Link> </p>
