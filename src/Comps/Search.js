@@ -19,6 +19,7 @@ function Searched() {
       "https://tan-blushing-swallow.cyclic.app/nature",
       "https://tan-blushing-swallow.cyclic.app/Way",
       "https://tan-blushing-swallow.cyclic.app/extinct",
+      "https://tan-blushing-swallow.cyclic.app/Stories",
      
     ];
     
