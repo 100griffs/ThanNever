@@ -117,7 +117,7 @@ const Lines=()=>{
     <p className='text'>{Data.about8d}</p>
 
 
-  <img alt="img" className="im" src={Data.img3}/>
+  <img alt="" className="im" src={Data.img3}/>
     <h4>{Data.sixth}</h4> 
  
     <p className='text'>{Data.about9}</p> 
