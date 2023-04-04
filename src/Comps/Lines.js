@@ -134,7 +134,6 @@ const Lines=()=>{
     {Data.image7 ? <img alt="img" className="im" src={Data.image7}/> : null}
     <p className='text'>{Data.about11}</p> 
     <h4>{Data.eighth}</h4> 
-    {Data.image7 ? <img alt="img" className="im" src={Data.image7}/> : null}
     <p className='text'>{Data.about12}</p> 
     {Data.image8 ? <img alt="img" className="im" src={Data.image8}/> : null}
     <h4>{Data.ninth}</h4>
