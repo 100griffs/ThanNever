@@ -85,7 +85,7 @@ const Lines=()=>{
     <h4>{Data.first}</h4> 
     <hr/>
     <p className='text'>{Data.about4}</p> 
- <img alt="img" className="im" src={Data.img2}   />
+    {Data.img2 ? <img alt="img" className="im" src={Data.img2}/> : null}
   
     <h4>{Data.second}</h4> 
     <p className='text'>{Data.about5}</p> 
@@ -117,7 +117,8 @@ const Lines=()=>{
     <p className='text'>{Data.about8d}</p>
 
 
-  <img alt="" className="im" src={Data.img3}/>
+
+  {Data.img3 ? <img alt="img" className="im" src={Data.img3}/> : null}
     <h4>{Data.sixth}</h4> 
  
     <p className='text'>{Data.about9}</p> 
