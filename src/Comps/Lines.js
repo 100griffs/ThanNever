@@ -83,11 +83,13 @@ const Lines=()=>{
     <p className='text'>{Data.about2}</p> 
     <p className='text'>{Data.about3}</p> 
     <h4>{Data.first}</h4> 
+    {Data.image1 ? <img alt="img" className="im" src={Data.image1}/> : null}
     <hr/>
     <p className='text'>{Data.about4}</p> 
     {Data.img2 ? <img alt="img" className="im" src={Data.img2}/> : null}
   
     <h4>{Data.second}</h4> 
+    {Data.image2 ? <img alt="img" className="im" src={Data.image2}/> : null}
     <p className='text'>{Data.about5}</p> 
     <p className='text'>{Data.about5a}</p> 
     <p className='text'>{Data.about5b}</p> 
@@ -95,11 +97,13 @@ const Lines=()=>{
     <p className='text'>{Data.about5d}</p> 
 
     <h4>{Data.third}</h4>
+    {Data.image3 ? <img alt="img" className="im" src={Data.image3}/> : null}
    
     <p className='text'>{Data.about6}</p> 
     <p className='text'>{Data.about6a}</p> 
     </div>
     <h4>{Data.fourth}</h4> 
+    {Data.image4 ? <img alt="img" className="im" src={Data.image4}/> : null}
     <p className='text'>{Data.about7}</p> 
     <p className='text'>{Data.about7a}</p> 
     <p className='text'>{Data.about7b}</p> 
@@ -109,6 +113,7 @@ const Lines=()=>{
 
 
     <h4>{Data.fifth}</h4> 
+    {Data.image5 ? <img alt="img" className="im" src={Data.image5}/> : null}
    
     <p className='text'>{Data.about8}</p> 
     <p className='text'>{Data.about8a}</p> 
@@ -120,9 +125,27 @@ const Lines=()=>{
 
   {Data.img3 ? <img alt="img" className="im" src={Data.img3}/> : null}
     <h4>{Data.sixth}</h4> 
+    {Data.image6 ? <img alt="img" className="im" src={Data.image6}/> : null}
  
     <p className='text'>{Data.about9}</p> 
     <p className='text'>{Data.about10}</p> 
+
+    <h4>{Data.seventh}</h4> 
+    {Data.image7 ? <img alt="img" className="im" src={Data.image7}/> : null}
+    <p className='text'>{Data.about11}</p> 
+    <h4>{Data.eighth}</h4> 
+    {Data.image7 ? <img alt="img" className="im" src={Data.image7}/> : null}
+    <p className='text'>{Data.about12}</p> 
+    {Data.image8 ? <img alt="img" className="im" src={Data.image8}/> : null}
+    <h4>{Data.ninth}</h4>
+    {Data.image9 ? <img alt="img" className="im" src={Data.image9}/> : null}
+    <p className='text'>{Data.about13}</p>  
+
+    <h4>{Data.tenth}</h4> 
+    {Data.image10 ? <img alt="img" className="im" src={Data.image10}/> : null}
+    <p className='text'>{Data.about14}</p> 
+    <p className='text'>{Data.about15}</p> 
+
 
     <div className="buttons_box">
     <Link to='/endangered'>
