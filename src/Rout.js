@@ -30,6 +30,7 @@ const LazySearched=React.lazy(()=>import('./Comps/Search'))
 const LazyEndangered=React.lazy(()=>import('./pages/Endangered'))
 const LazyWay=React.lazy(()=>import('./pages/way'))
 const LazyCos=React.lazy(()=>import('./pages/Cos'))
+const LazyStories=React.lazy(()=>import('./pages/Stories'))
 
 
 
@@ -72,6 +73,10 @@ function Rout() {
                 }/>
        <Route path= '/cos' element={<React.Suspense fallback="loading.....">
                 <LazyCos/>
+                </React.Suspense>
+                }/>
+                <Route path= '/Stories' element={<React.Suspense fallback="loading.....">
+                <LazyStories/>
                 </React.Suspense>
                 }/>
 

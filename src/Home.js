@@ -5,6 +5,7 @@ import {useEffect,useState} from 'react';
 import Card from './Comps/Card';
 import { Helmet } from 'react-helmet-async';
 import Quotes from './Comps/Qoutes';
+import Latest from './Comps/Latest';
 import ReactPlayer from 'react-player'
 
 
@@ -59,6 +60,7 @@ return(
   <div>
     <Quotes/>
 
+
   
 <p className='text'>We all share this world and we have a responsibility to protect the environment and its inhabitants We all share this world and we have a responsibility to protect the environment and its inhabitants.<Link className='link' to='/cos'> learn about what causes bio diversity loss </Link> </p>
 <p className='text'>
@@ -82,6 +84,9 @@ return(
  
     
   />
+<h1>top storeies</h1>
+<hr/>
+<div className='stories'><Latest/></div>
 
 </div>
 
