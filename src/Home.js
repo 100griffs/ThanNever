@@ -6,7 +6,7 @@ import Card from './Comps/Card';
 import { Helmet } from 'react-helmet-async';
 import Quotes from './Comps/Qoutes';
 import Latest from './Comps/Latest';
-import ReactPlayer from 'react-player'
+
 
 
 
@@ -184,7 +184,7 @@ Endangered species are Species that are at risk of becoming extinct,This negativ
 <h4> habitat Loss</h4>
 <hr/>
 <p className='text1' > Habitat loss is a major problem facing the world today. As humans expand their settlements and develop land for industrial or agricultural purposes, wildlife habitats are diminishing. This has devastating effects on many species, leading to population decline, species extinction, and fragmentation of habitats. <Link className='link' to='/lines/causes/Habitat%20Loss' > check out more here </Link></p>
-<img className='image' alt='no image' src='https://images.unsplash.com/photo-1676625195945-0b12142742f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'/>
+<img className='image' alt='' src='https://images.unsplash.com/photo-1676625195945-0b12142742f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80'/>
 <div className="buttons_box">
     <Link to='/endangered'>
     <button className="button">endangered species</button>
