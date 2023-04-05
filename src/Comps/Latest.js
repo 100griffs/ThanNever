@@ -30,7 +30,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       handleNext();
-    }, 3500);
+    }, 2800);
     return () => clearInterval(interval);
   }, [handleNext]);
 
@@ -41,7 +41,7 @@ const Carousel = () => {
 
           <div className="carousel" key={dat.id}>
                <h3>{dat.name}</h3>
-               <hr/>
+               
             
             <div className="carousel__image">
           

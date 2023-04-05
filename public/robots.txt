@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 sitemap: https://www.thannever.com/sitemap.xml
+sitemap:https://www.thannever.com/stories.xml

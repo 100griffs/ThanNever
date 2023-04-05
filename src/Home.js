@@ -65,30 +65,26 @@ return(
 <p className='text'>We all share this world and we have a responsibility to protect the environment and its inhabitants We all share this world and we have a responsibility to protect the environment and its inhabitants.<Link className='link' to='/cos'> learn about what causes bio diversity loss </Link> </p>
 <p className='text'>
  Animals are some of the most vulnerable members of our planet’s community, and they deserve respect and care from us. Learn more with our short <Link className='link' to='/view'>Nature 1o1</Link> </p>
-
+ <Link to='/view'>
 <img className='image' alt='trees' src='https://images.pexels.com/photos/50579/africa-elephant-words-animal-50579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
+</Link>
 <p className='text'>Learn and get a basic understanding of what the problem is and how we can confront and overcome the problem of extinction and loss of Bio diversity on our planet. start now <Link className='link' to='/lines/Nature/Our World'>our world</Link>
 </p>
 
 <hr/>
 
- <ReactPlayer  
-    url='https://stuffone.s3.ap-southeast-2.amazonaws.com/pexels-zlatin-georgiev-5607745.mp4'
-    playing={true}
-    loop={true}
-    muted={true}
-    controls={false}
-    id="background_video"
-    width='100%'
-    height='100%'
- 
-    
-  />
 <h1>top storeies</h1>
 <hr/>
 <div className='stories'><Latest/></div>
+<p className='text'>Humans have been driving species to extinction for centuries, with devastating consequences for the environment. From deforestation to poaching to climate change, humans are the primary cause of species becoming extinct. <Link className='link' to='/lines/extinct/Extinction%20of%20Species%20Due%20to%20Human%20Activity'>Extinction of Species Due to Human Activity read more</Link></p>
+
+<Link to='/lines/Stories/5%20most%20endangered%20forests'>
+<img className='image' alt='trees' src='https://images.pexels.com/photos/1423600/pexels-photo-1423600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'/>
+</Link>
+<p className='text'> Forests are one of the most important resources that we have on our planet, providing habitat for countless species of plants and animals, and playing a crucial role in regulating the Earth's climate. Unfortunately, many of the world's forests are under threat from deforestation, climate change, and other human activities. In this blog post, we will be discussing the five most endangered forests in the world in 2023.<Link className='link' to='/lines/Stories/5%20most%20endangered%20forests'> learn more</Link></p>
 
 </div>
+
 
 <div className='home'>
   <div className='home1'>

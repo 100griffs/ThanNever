@@ -147,12 +147,16 @@ const Lines=()=>{
 
 
     <div className="buttons_box">
+    <Link to='/stories'>
+    <button className="button">stories</button>
+    </Link>
     <Link to='/endangered'>
     <button className="button">endangered species</button>
     </Link>
     <Link to='/cos'>
     <button className="button" >causes of bio diversity loss</button>
     </Link>
+    
     <Link to='/way-forward'>
     <button className="button" >way forward</button>
     </Link>
