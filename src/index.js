@@ -12,7 +12,7 @@ ReactGA.initialize("G-MFFCJ3EFNH");
 root.render(
   <React.StrictMode>
 
-   <div>
+   <div className='index'>
    <HelmetProvider>
        <App/>
        </HelmetProvider>

@@ -195,6 +195,11 @@ font-family: 'Courier New', Courier, monospace;
       
 
     @media (max-width: 650px) {
+
+      .index{
+        padding: 4px;
+        background-color: #f0f0f0;
+      }
       
  
       .im{
@@ -321,4 +326,3 @@ font-family: 'Courier New', Courier, monospace;
   border: 2px solid rgb(181, 169, 169);
   width: 80%;
 }
-

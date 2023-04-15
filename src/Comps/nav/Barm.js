@@ -21,13 +21,6 @@ export const linker =  [
         icon: "fa-solid  fa-stream"
     
     },
-    {
-        title: "contribute ",
-        url: "./voice",
-        Cname: "nav-links",
-        icon: "nav-links-mobile"
-    },
-
 
     {
         title: "About",
