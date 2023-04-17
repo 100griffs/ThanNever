@@ -57,4 +57,10 @@
       border-radius: 3px;
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
     }
+    .img{
+      padding: 0.5rem;
+      height: 15rem;
+      width: 70%;
+      object-fit: cover;
+    }
   }
