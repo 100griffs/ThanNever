@@ -3,7 +3,7 @@ import  './footer.css';
 
 function Footer({Link}) {
   
-  return (<div>
+  return (
 
 
     <div className='foots'>
@@ -59,7 +59,7 @@ function Footer({Link}) {
   </div>
 </div>
 
-</div>
+
     
   );
 }
