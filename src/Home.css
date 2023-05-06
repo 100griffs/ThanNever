@@ -23,17 +23,14 @@ width: 100%;
 
 
 .maison {
-    padding: 15px;
-    margin: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
-    margin-left: 70px;
-    margin-right: 70px;
-    border-left-style: outset;
-    border-right-style: inset;
-
-    border-bottom-style: ridge ;
-  
+  padding: 15px;
+  margin: 10px auto;
+  font-family: Georgia, Times, serif;
+  width: 100%;
+  max-width: 1300px; /* Added a max-width to prevent the content from becoming too wide on larger screens */
+  border-left: 4px outset #333; /* Simplified border styles */
+  border-right: 4px inset #333;
+  border-bottom: 2px ridge #666;
 }
 .home2{
   width: 100%;
@@ -41,6 +38,11 @@ width: 100%;
   margin-bottom: 20px;
   height: auto;
 }
+.home{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+   }
 
 
 .him {
@@ -161,6 +163,11 @@ width: 100%;
     justify-content: center;
   
   }
+  .home{
+    display: flex;
+    flex-direction: column;
+   
+     }
 
   
  
@@ -176,6 +183,7 @@ width: 100%;
 
   .maison {
       padding: 0.5rem;
+      max-width: 900px; 
       margin: 0px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       border-left-style: none ;
@@ -258,6 +266,7 @@ width: 100%;
   .home{
  display: flex;
  flex-direction: column;
+ overflow: hidden;
   }
   .home2{
     width: 100%;
